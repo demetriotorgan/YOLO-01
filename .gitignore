@@ -1,0 +1,32 @@
+# Dependências do Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ambiente Virtual Python e Logs
+.venv/
+env/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.log
+
+# Modelos pesados de Machine Learning (Opcional: se o .onnx for muito grande, 
+# é melhor baixá-lo via script do que subir pro Git, mas se preferir manter, comente a linha abaixo)
+# model/*.onnx
+*.pt
+
+# Arquivos de Sistema e IDEs
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Dados de Teste Sensíveis / Amostras Locais de Imagens (Opcional)
+# dataset/*.jpeg
+# dataset/*.png
